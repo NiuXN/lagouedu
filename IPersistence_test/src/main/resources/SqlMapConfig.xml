@@ -1,0 +1,10 @@
+<configuration>
+    <dataSource>
+        <property name="driver" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://192.168.6.66:3306/zdy_mybatis"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="325678"></property>
+    </dataSource>
+    <!--    *mapper.xml全路径   -->
+    <mapper Resource="UserMapper.xml"></mapper>
+</configuration>
